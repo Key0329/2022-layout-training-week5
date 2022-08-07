@@ -1,8 +1,6 @@
-main{
+.assignment{
   margin-left: 296px;
   padding: 32px;
-  height: 100vh;
-  transition: all 0.3s;
   .container-fluid{
     margin-left: -12px;
     margin-right: -12px;
@@ -10,12 +8,15 @@ main{
       line-height: 33px;
     }
   }
-}
-
-.assignment-photo{
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
+  &-photo{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  a:hover{
+    opacity: 0.8;
+    transition: all 0.3s;
+  }
 }
 
 .material-icons-rotate{

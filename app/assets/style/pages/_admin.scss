@@ -1,0 +1,18 @@
+.admin{
+    margin-left: 296px;
+    padding: 32px;
+    .container-fluid{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    a:hover{
+        opacity: 0.8;
+        transition: all 0.3s;
+    }
+}
+
+.pagination a:hover{
+    background: $success;
+    color: #fff;
+    opacity: 1;
+}

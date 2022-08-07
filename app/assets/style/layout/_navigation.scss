@@ -1,10 +1,11 @@
-nav{
+.navigation{
     min-width: 296px;
     min-height: 100vh;
     padding: 32px;
     ul li a{
         position: relative;
         &:hover{
+            color: $success;
             ::before{
                 content: "";
                 position: absolute;
