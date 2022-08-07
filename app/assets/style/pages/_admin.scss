@@ -6,13 +6,30 @@
         margin-right: -12px;
     }
     a:hover{
-        opacity: 0.8;
+        color: $primary !important;
         transition: all 0.3s;
     }
 }
 
 .pagination a:hover{
     background: $success;
-    color: #fff;
+    color: #fff !important;
     opacity: 1;
+}
+
+.modal-content{
+    .container{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.view-photo{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
 }

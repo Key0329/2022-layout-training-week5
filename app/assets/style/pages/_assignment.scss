@@ -14,7 +14,7 @@
     object-fit: cover;
   }
   a:hover{
-    opacity: 0.8;
+    color: $primary;
     transition: all 0.3s;
   }
 }
