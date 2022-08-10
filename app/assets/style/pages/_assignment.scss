@@ -14,7 +14,7 @@
     object-fit: cover;
   }
   a:hover{
-    color: $primary;
+    color: $primary !important;
     transition: all 0.3s;
   }
 }
