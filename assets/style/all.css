@@ -12039,6 +12039,7 @@ fieldset:disabled .btn {
 a {
   text-decoration: none;
   display: block;
+  line-height: 1;
 }
 
 p {
@@ -12049,6 +12050,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body {
@@ -12117,6 +12120,10 @@ body {
 
 .pb-c-22 {
   padding-bottom: 22px;
+}
+
+.pt-c-32 {
+  padding-top: 32px;
 }
 
 .roboto-mono {
@@ -12191,7 +12198,7 @@ body {
 }
 
 .assignment a:hover {
-  color: #198754;
+  color: #198754 !important;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -12252,6 +12259,10 @@ body {
   height: 160px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.chevron {
+  padding: 5px 9.5px;
 }
 
 /*# sourceMappingURL=all.css.map */
